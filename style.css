@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00cc00; /* Verde Palmeiras Claro */
+    color: #000000; /* Preto */ /* Altera a cor do texto para preto */
+    text-align: center; /* Centraliza o texto do corpo */
+}
+
+header {
+    background-color: #006600; /* Verde Palmeiras Escuro */
+    padding: 1em;
+    text-align: center;
+}/* ... outros estilos ... */
+
+.video-section {
+    display: flex;
+    justify-content: center; /* Centraliza os vídeos horizontalmente */
+    gap: 20px; /* Espaço entre os vídeos */
+}
+
+.video-section iframe {
+    width: 500px; /* Ajuste a largura dos vídeos */
+    height: 300px; /* Ajuste a altura dos vídeos */
+}
+
+main {
+    padding: 2em;
+    background-color: #ffffff; /* Branco */ /* Adicione fundo branco para o conteúdo */
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 1em; /* Adicione espaçamento interno nas seções */
+    text-align: left; /* Alinha o texto das seções à esquerda */
+}
+
+h2 {
+    color: #006600; /* Verde Palmeiras Escuro para os títulos das seções */
+    text-align: center; /* Centraliza os títulos das seções */
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #006600; /* Verde Palmeiras Escuro */
+    color: #ffffff; /* Branco */
+}
